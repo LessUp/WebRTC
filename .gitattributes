@@ -1,0 +1,18 @@
+* text=auto eol=lf
+
+# Treat Go files as text with LF endings
+*.go text eol=lf
+
+# Keep Windows scripts normalized but executable when exported
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.webm binary
+*.zip binary
+*.exe binary

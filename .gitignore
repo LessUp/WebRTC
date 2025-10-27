@@ -1,0 +1,39 @@
+# Build outputs
+/bin/
+/build/
+/dist/
+/out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go modules & tooling
+*.test
+*.coverprofile
+coverage.out
+
+# Node / front-end
+node_modules/
+web/dist/
+web/node_modules/
+
+# Logs & runtime artifacts
+*.log
+*.pid
+*.tmp
+*.cache
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+*.local
